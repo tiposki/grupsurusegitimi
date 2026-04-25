@@ -248,7 +248,7 @@ function gradeExam() {
     document.getElementById('examResults').style.display = '';
     document.getElementById('examResults').innerHTML = `
         <div class="exam-results-card">
-            <img src="logo.png" alt="İZMOK" style="width:60px;height:60px;border-radius:50%;border:2px solid var(--orange);margin-bottom:12px;">
+            <img src="logo.png" alt="İzmir Motosiklet Kulübü" style="width:60px;height:60px;border-radius:50%;border:2px solid var(--orange);margin-bottom:12px;">
             <h2>${score >= 70 ? 'Tebrikler!' : 'Tekrar Deneyin'}</h2>
             <p style="color:var(--text-secondary);font-size:0.9rem;">${score >= 70 ? 'Sınavı başarıyla tamamladınız.' : 'Geçme notu 70\'tir. Modülleri tekrar gözden geçirin.'}</p>
             <div class="score-circle" style="--score-deg:${deg}deg;">
